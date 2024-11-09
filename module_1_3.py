@@ -11,4 +11,4 @@ is_student  = True
 
 print("Студент? " + str(is_student))
 
-# version 2
+# version 3
