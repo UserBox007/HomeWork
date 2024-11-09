@@ -10,3 +10,5 @@ print("Двойной возраст " + str(name))
 is_student  = True
 
 print("Студент? " + str(is_student))
+
+# version 2
