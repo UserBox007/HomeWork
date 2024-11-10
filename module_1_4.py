@@ -14,16 +14,5 @@ Time_Per_Task = Number_Of_Completed_DZ * Number_Of_Hours_Spent
 
 
 
-print("Курс: " + Course_Name, ", врего задач: " + Number_Of_Completed_DZ, ", затрачено часов: " + Number_Of_Hours_Spent,  ", среднее время выполнения: " + Time_Per_Task)
-
-name = 44
-print("Возраст " + str(name))
-
-name += 44
-print("Двойной возраст " + str(name))
-
-is_student  = True
-
-print("Студент? " + str(is_student))
-
+print("Курс: " + Course_Name, ", врего задач: " + str(Number_Of_Completed_DZ), ", затрачено часов: " + str(Number_Of_Hours_Spent),  ", среднее время выполнения: " + str(Time_Per_Task))
 # version 3
