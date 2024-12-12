@@ -3,8 +3,9 @@ students = {'Johnny', 'Bilbo', 'Steve', 'Khendrik', 'Aaron'}
 students_list = list(students)
 students_list.sort()
 
+students_grades = {}
 
-students2 = {grades:  students_list}
-print(students2)
-print(students_list)
-print(sum(grades[1])/ len(grades[1]))
+for index in range(len(students)):
+    students_grades[students_list[index]] = sum(grades[index]) / len(grades[index])
+
+print(students_grades)
