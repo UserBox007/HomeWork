@@ -12,7 +12,7 @@ def calculate_structure_sum(data_structure):
                 result += val
             elif isinstance(val, str):
                 result += len(val)
-             else:
+            else:
                 result += calculate_structure_sum(val)
 
     return result
