@@ -1,6 +1,3 @@
-from importlib.resources import read_text
-from pprint import pprint
-
 class Product:
     def __init__(self, name, weight, category):
         self.name = name
