@@ -7,8 +7,8 @@ for root, dirs, files in os.walk(directory):
 
     for file in files:
 
-        filepath = os.path.join(file)
 
+        filepath = os.path.join(file)
 
         filetime =  os.path.getmtime(file)
 
